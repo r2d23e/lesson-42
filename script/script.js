@@ -44,8 +44,13 @@ do {
 
 
 
-while (star1.length <= 10) {
-    star1 += star2
-     document.write(star1 + "<br>")
-    console.log(star1);
+// while (star1.length <= 10) {
+//     star1 += star2
+//     document.write(star1 + "<br>")
+//     console.log(star1);
+// }
+let stick = 1
+while (stick <= 8) {
+    stick += 1
+    document.write("*" + "<br>")
 }
